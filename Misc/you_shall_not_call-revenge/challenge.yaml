@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: you-shall-not-call-revenge
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/you-shall-not-call-revenge-challenge:9f27667deda7db53a7f32260768495c3cc7845a4d4521b509ef49d3c2465ab23

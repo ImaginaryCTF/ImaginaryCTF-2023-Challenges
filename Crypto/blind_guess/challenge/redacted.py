@@ -1,0 +1,1 @@
+FLAG = "ictf{Why_gu355_wh3n_y0u_c4n_j0rd4n}"

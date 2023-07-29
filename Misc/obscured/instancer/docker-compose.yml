@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  instancer:
+    build: .
+    ports:
+      - 42000:1337
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

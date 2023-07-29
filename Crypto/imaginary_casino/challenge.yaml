@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: imaginary-casino
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/imaginary-casino-challenge:d3f151494ea7f322c827818425443ccd620c7dcbd281567712d072ef5a32cec3

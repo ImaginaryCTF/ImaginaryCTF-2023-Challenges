@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: you-shall-not-call
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/you-shall-not-call-challenge:d66db705e50e4f71ddbe117e583ec7d86749209ffdaf4e1fb1f77650d9f1bf36

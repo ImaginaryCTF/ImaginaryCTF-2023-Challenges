@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: temu
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/temu-challenge:fb4c9140d57bc85d3c23cad22e93fc843ba69fe053b26c823b223daf6554cc4f

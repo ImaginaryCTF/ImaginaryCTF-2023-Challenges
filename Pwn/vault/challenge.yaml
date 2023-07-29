@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: vault
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/vault-challenge:c4a4185671081a53e0f7dc798d81b02a8000a9ea5057a98f5b04a222abd42e50

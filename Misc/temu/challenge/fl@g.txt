@@ -1,0 +1,1 @@
+jctf{red_flags_and_fake_flags_form_an_equivalence_class}

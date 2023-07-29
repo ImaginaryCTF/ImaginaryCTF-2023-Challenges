@@ -1,0 +1,2 @@
+please tell Eth007 how you solved this
+ictf{wh0_even_needs_p0p_rdi_1b20a23f}

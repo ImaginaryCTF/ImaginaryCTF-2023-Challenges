@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: get-and-set
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/get-and-set-challenge:6cd5e867ae5dbab02d7b5e5f0c10b955f7f1187cf0156a52e69d7259400705ec

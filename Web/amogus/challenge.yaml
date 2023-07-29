@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: amogus
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 80
+        targetPort: 80
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/amogus-challenge:c128629c26715f84f3fa0e68177eee53367dc104e63bab09776fb1c2404669c8

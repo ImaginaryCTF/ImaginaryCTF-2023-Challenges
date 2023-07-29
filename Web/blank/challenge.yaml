@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: blank
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "TCP"
+        port: 80
+        targetPort: 5000
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/imaginaryctf-2023/blank-challenge:8a9911133d488eb6383085893ee04aeaaf1b66ac8cbc2c37528a1d34c8eac4d3

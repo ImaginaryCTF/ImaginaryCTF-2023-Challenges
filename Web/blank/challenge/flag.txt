@@ -1,0 +1,1 @@
+ictf{sqli_too_powerful_9b36140a}
